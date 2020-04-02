@@ -15,11 +15,6 @@ function create_image($name)
             $r = rand(0, 255);
             $g = rand(0, 255);
             $b = rand(0, 255);
-            // for ($y = $rows * ($size_y / $partitions); $y < ($rows + 1) * ($size_y / $partitions); $y++) {
-            //     for ($x = $cols * ($size_x / $partitions); $x < ($cols + 1) * ($size_x / $partitions); $x++) {
-            //         $img->pixel(array($r, $g, $b), $x, $y);
-            //     }
-            // }
 
             $img->rectangle(
                 $rows * ($size_y / $partitions), $cols * ($size_x / $partitions),

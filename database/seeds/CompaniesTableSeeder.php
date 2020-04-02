@@ -15,14 +15,14 @@ class CompaniesTableSeeder extends Seeder
         $companies = [];
 
         $companies[] = [
-            'name' => "Shukhi's Bakery",
+            'name' => "Shila's Bakery",
             'user_id' => 7,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s"),
         ];
 
         $companies[] = [
-            'name' => "Shukhi's Pizza",
+            'name' => "Shila's Pizza",
             'user_id' => 7,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s"),

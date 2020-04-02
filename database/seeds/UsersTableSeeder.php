@@ -30,8 +30,8 @@ class UsersTableSeeder extends Seeder
 
         // admins
         $users[] = [
-            'name' => "nahiyan",
-            'email' => "nahiyan.alamgir@northsouth.edu",
+            'name' => "shila",
+            'email' => "shilakhan007@hotmail.com",
             'password' => bcrypt("me"),
             'type' => "admin",
             'created_at' => date("Y-m-d H:i:s"),
@@ -40,8 +40,8 @@ class UsersTableSeeder extends Seeder
 
         // company
         $users[] = [
-            'name' => "shukhi",
-            'email' => "momena.akhter@northsouth.edu",
+            'name' => "zillur",
+            'email' => "zillur1996@hotmail.com",
             'password' => bcrypt("me"),
             'type' => "company",
             'created_at' => date("Y-m-d H:i:s"),
