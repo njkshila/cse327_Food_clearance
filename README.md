@@ -16,7 +16,7 @@ Since it's based on Laravel, installation is pretty straightforward. Here are th
 
 - Clone this repository using Git (recommended):
   ```bash
-  git clone https://github.com/nahiyan/food_clearance.git
+  git clone https://github.com/njkshila/cse327_Food_clearance
   ```
 
 - Install dependencies using Composer (a package manager for PHP):
@@ -26,7 +26,7 @@ Since it's based on Laravel, installation is pretty straightforward. Here are th
 
 - Since you need to set variables specific to your project, you need to copy the `.env.example` to `.env`. On UNIX-based systems: 
   ```bash
-  cp .env.example .env`
+  cp .env.example .env
   ```
 
 - Set the variables in your newly created `.env` file, especially the ones prefixed with "DB"
