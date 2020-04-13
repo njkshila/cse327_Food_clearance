@@ -13,3 +13,5 @@ yarn-error.log
 .editorconfig
 *.code-workspace
 *.sh
+.env.testing
+database.sqlite
